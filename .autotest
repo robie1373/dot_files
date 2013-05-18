@@ -1,0 +1,16 @@
+require 'autotest/growl'
+require 'autotest/fsevent'
+require 'autotest/restart'
+#require 'redgreen/autotest'
+
+Autotest::Growl::show_modified_files = true
+
+class Autotest::Rspec
+
+  def make_test_cmd(files_to_test)
+    return '' if files_to_test.empty?
+    return "spec #{files_to_test.keys.flatten.join(' ')}
+#{add_options_if_present}"
+  end
+end
+

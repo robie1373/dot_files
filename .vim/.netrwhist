@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/robie1373/Public/www/mebay/app/views/ads'
+let g:netrw_dirhist_2='/Users/robie1373/.ffmpeg'
+let g:netrw_dirhist_3='/Users/robie1373/Dropbox/MyCode/ruby/warcards/lib/warcards'
+let g:netrw_dirhist_4='/Users/robie1373/.bundler'
+let g:netrw_dirhist_5='/Users/robie1373/.gem'
+let g:netrw_dirhist_6='/Users/robie1373/Dropbox/MyCode/ruby/warcards/lib/warcards'

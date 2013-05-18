@@ -1,0 +1,18 @@
+[user]
+	name = Robie Lutsey
+	email = robie1373@gmail.com
+[github]
+	user = robie1373
+	token = 3381980ac693a9b142a54a3a65df304e
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /Users/robie1373/.gitignore
+[gui]
+	recentrepo = /Users/robie1373/Dropbox/MyCode/webroot
+[remote "origin"]
+	receivepack = git receive-pack
+[credential]
+	helper = osxkeychain
